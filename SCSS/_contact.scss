@@ -1,0 +1,149 @@
+.contact {
+    color: $colorBgNavi2;
+    height: 70vh;
+    background-color: $colorBGContact;
+    box-shadow: 0px 2px 2px 2px #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+    h1 {
+        margin-top: 20px;
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    p {
+        letter-spacing: 1px;
+        color: #888888;
+    }
+
+
+    &__form {
+
+        color: $colorBgNavi2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        text-align: center;
+        margin: 40px;
+    }
+
+    .form__one__two {
+        display: flex;
+        flex-direction: c;
+    }
+
+
+    #fname {
+
+        border-radius: 5px;
+        float: left;
+        width: 290px;
+        height: 50px;
+        margin-right: 20px;
+        font-size: 1.4rem;
+        border: 1px solid $colorBgNavi2;
+        padding: 10px;
+
+    }
+
+
+    #sname {
+        border-radius: 5px;
+        float: left;
+        width: 290px;
+        height: 50px;
+        font-size: 1.4rem;
+        padding: 10px;
+        border: 1px solid $colorBgNavi2;
+    }
+
+    #msForm {
+        margin: 10px 0px;
+        border-radius: 5px;
+        width: 600px;
+        height: 200px;
+        font-size: 1.4rem;
+        padding: 10px;
+        border: 1px solid $colorBgNavi2;
+
+
+    }
+
+    input[type=submit] {
+        background-color: $colorBTN1;
+        border-radius: 5px;
+        border: 2px solid $colorBgNavi2;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        color: aliceblue;
+        font-family: Arial;
+        font-size: 1rem;
+        margin-top: 10px;
+        padding: 10px 31px;
+        text-decoration: none;
+
+    }
+
+    input[type=submit]:hover {
+        transition: 0.2s;
+        background-color: $colorBgNavi2;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .contact {
+
+        height: 70vh;
+
+
+        &__form {
+
+            color: $colorBgNavi2;
+
+
+        }
+
+        #fname {
+
+            width: 300px;
+            margin: 0;
+
+        }
+
+        #sname {
+
+            width: 300px;
+            margin-top: 5px;
+
+        }
+
+        #msForm {
+
+            width: 300px;
+
+
+
+        }
+
+
+    }
+
+    .form__one__two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        // background-color: blueviolet;
+
+    }
+
+}
