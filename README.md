@@ -1,4 +1,3 @@
 # Projekt-5
-
-page template using SCSS and BEM
-Demo on:
+##Page template using SCSS and BEM
+##Demo on: https://extraordinary-treacle-8dde3e.netlify.app
